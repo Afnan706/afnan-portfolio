@@ -1,0 +1,243 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Afnan Azad | Portfolio</title>
+  <meta name="description" content="Portfolio website for Afnan Azad — Computer Science student at Memorial University of Newfoundland." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <div class="avatar" aria-hidden="true">AA</div>
+        <div>
+          <h1 class="name">Afnan Azad</h1>
+          <p class="tagline">Computer Science • Projects • Support & Leadership</p>
+        </div>
+      </div>
+
+      <nav class="nav" aria-label="Primary">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <h2>Hi — I’m Afnan.</h2>
+          <p>
+            I’m a Computer Science student who enjoys building practical software projects, learning robotics and data prep
+            workflows, and supporting customers with clear, calm technical help.
+          </p>
+          <div class="cta-row">
+            <a class="btn primary" href="#projects">View Projects</a>
+            <a class="btn" href="#contact">Get in Touch</a>
+          </div>
+          <ul class="quick-facts" role="list">
+            <li>Pronouns: He/Him/They/Zir</li>
+            <li>Based in St. John’s, NL</li>
+          </ul>
+        </div>
+
+        <aside class="hero-card" aria-label="Contact snapshot">
+          <h3>Quick Links</h3>
+          <ul class="links" role="list">
+            <li><span class="label">Email</span> <a href="mailto:aiazad@mun.ca">aiazad@mun.ca</a></li>
+            <li><span class="label">Phone</span> <a href="tel:+17093301828">709-330-1828</a></li>
+            <li><span class="label">LinkedIn</span> <a href="https://linkedin.com/in/afnan-azad" target="_blank" rel="noreferrer">linkedin.com/in/afnan-azad</a></li>
+            <li><span class="label">GitHub</span> <a href="https://github.com/afnan" target="_blank" rel="noreferrer">github.com/afnan</a></li>
+            <li><span class="label">Resume</span> <a href="resume.pdf" target="_blank" rel="noreferrer">Download / View</a></li>
+          </ul>
+          <p class="small muted">
+            Tip: replace the “Resume” file with your latest PDF (keep the name <code>resume.pdf</code>).
+          </p>
+        </aside>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container">
+        <h2>About</h2>
+        <div class="grid-2">
+          <div class="card">
+            <h3>Professional identity</h3>
+            <p>
+              I combine customer-facing technical support experience with leadership in day-to-day operations.
+              I enjoy building systems that are clear, testable, and user-friendly — from robotics control to
+              data-cleaning pipelines.
+            </p>
+          </div>
+          <div class="card">
+            <h3>Skills</h3>
+            <ul class="chips" role="list">
+              <li>Python</li>
+              <li>ROS 2</li>
+              <li>Robotics (FK/IK)</li>
+              <li>pandas</li>
+              <li>NumPy</li>
+              <li>Matplotlib</li>
+              <li>Data cleaning</li>
+              <li>Linear regression</li>
+              <li>Customer support</li>
+              <li>Operations & reporting</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section alt">
+      <div class="container">
+        <div class="section-head">
+          <h2>Projects</h2>
+          <p class="muted">A few highlights from coursework and hands-on builds.</p>
+        </div>
+
+        <div class="cards">
+          <article class="card project">
+            <div class="project-top">
+              <h3>Robotic Manipulator Arm (ROS-Based 5-DOF Control System)</h3>
+              <p class="pill">COMP 3766 • Robotics</p>
+            </div>
+            <p>
+              Designed a 5-DOF robotic arm using Python and ROS 2 with custom kinematic models, including forward and
+              inverse kinematics. Integrated the control logic into a ROS simulation environment and built a user-driven
+              demo to input joint angles or coordinates and generate trajectories.
+            </p>
+            <ul class="bullets">
+              <li>URDF modeling, joint controllers, publishers/subscribers</li>
+              <li>Trajectory generation from joint angles or target coordinates</li>
+              <li>FK/IK implementation and simulation integration</li>
+            </ul>
+            <div class="project-links">
+              <a class="btn small" href="#" aria-disabled="true" title="Add your repository link">GitHub Repo (add link)</a>
+              <a class="btn small" href="#" aria-disabled="true" title="Add a demo video link">Demo Video (add link)</a>
+            </div>
+          </article>
+
+          <article class="card project">
+            <div class="project-top">
+              <h3>DataPrep360 — Weather Data Cleaning & Regression Pipeline</h3>
+              <p class="pill">COMP 3400 • Data Preparation</p>
+            </div>
+            <p>
+              Built a real-world data prep pipeline to analyze precipitation using Python, pandas, NumPy, and Matplotlib.
+              Cleaned data, selected features, removed outliers, engineered new features, and evaluated a linear regression
+              model using RMSE and MAE.
+            </p>
+            <ul class="bullets">
+              <li>Feature engineering: rolling averages, humidity-weighted precipitation score</li>
+              <li>Outlier detection/removal and dataset preparation</li>
+              <li>Model evaluation: RMSE and MAE</li>
+            </ul>
+            <div class="project-links">
+              <a class="btn small" href="#" aria-disabled="true" title="Add your repository link">GitHub Repo (add link)</a>
+              <a class="btn small" href="#" aria-disabled="true" title="Add a report link">Report (add link)</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="section">
+      <div class="container">
+        <h2>Experience</h2>
+
+        <div class="timeline">
+          <div class="timeline-item card">
+            <div class="timeline-head">
+              <h3>Assistant Manager — Cineplex</h3>
+              <p class="muted">St. John’s, NL • Dec 2022 – Apr 2025</p>
+            </div>
+            <ul class="bullets">
+              <li>Managed tills, bank deposits, inventory orders, and daily reporting.</li>
+              <li>Assisted the Manager with store operations and issue resolution.</li>
+            </ul>
+          </div>
+
+          <div class="timeline-item card">
+            <div class="timeline-head">
+              <h3>Technical Support Specialist — FoundEver</h3>
+              <p class="muted">St. John’s, NL • Jan 2023 – Apr 2025</p>
+            </div>
+            <ul class="bullets">
+              <li>Supported 25+ customers daily with plan upgrades, network issues, and account services.</li>
+              <li>Coordinated with departments and retailers to resolve concerns efficiently.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="education" class="section alt">
+      <div class="container">
+        <h2>Education</h2>
+        <div class="card">
+          <h3>Memorial University of Newfoundland</h3>
+          <p class="muted">Bachelor of Science in Computer Science • St. John’s, NL</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="container">
+        <h2>Contact</h2>
+        <div class="grid-2">
+          <div class="card">
+            <h3>Let’s connect</h3>
+            <p>
+              Best way to reach me is email. I’m also active on LinkedIn and GitHub.
+            </p>
+            <ul class="links" role="list">
+              <li><span class="label">Email</span> <a href="mailto:aiazad@mun.ca">aiazad@mun.ca</a></li>
+              <li><span class="label">LinkedIn</span> <a href="https://linkedin.com/in/afnan-azad" target="_blank" rel="noreferrer">linkedin.com/in/afnan-azad</a></li>
+              <li><span class="label">GitHub</span> <a href="https://github.com/afnan" target="_blank" rel="noreferrer">github.com/afnan</a></li>
+            </ul>
+          </div>
+
+          <form class="card form" onsubmit="return false" aria-label="Contact form (optional)">
+            <h3>Quick message (optional)</h3>
+            <p class="muted small">This is a static site, so this form doesn’t send emails yet. It’s here for layout.</p>
+            <label>
+              Name
+              <input type="text" placeholder="Your name" />
+            </label>
+            <label>
+              Email
+              <input type="email" placeholder="you@example.com" />
+            </label>
+            <label>
+              Message
+              <textarea rows="4" placeholder="Write your message..."></textarea>
+            </label>
+            <button class="btn primary" type="submit" disabled title="Static site: wire up later if needed">
+              Send (disabled)
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p class="muted small">© <span id="y"></span> Afnan Azad. Built as a simple, public e-portfolio.</p>
+      <a class="muted small" href="#main">Back to top</a>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("y").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
